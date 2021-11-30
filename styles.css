@@ -1,0 +1,162 @@
+:root {
+    --roof-color: grey;
+    --wall-color: grey;
+    --window-color: yellow;
+    --door-color: #654321;
+    --ion-background-color: #cebc85;
+    --sky-color: #191970;
+  }
+
+  ion-content {
+    height: 100vh;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+  }
+
+  ion-card {
+    height: 25px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    color: black;
+    font-weight: bold;
+  }
+
+  #stick-castle {
+    height: 456px;
+    width: 900px;
+    display: block;
+    padding-top: 5px;
+    background: var(--sky-color);
+    margin-left: 50px;
+    margin-right: 5px;
+  }
+
+  #stick-castle .roof {
+    height: 120px;
+    width: 90px;
+    background-color: var(--roof-color);
+    position: relative;
+  }
+
+  #stick-castle .window {
+    display: block;
+    margin: 0 auto;
+    width: 25px;
+    height: 70px;
+    position: relative;
+    background-color: var(--window-color);
+  }
+
+  #stick-castle .wall {
+    height: 160px;
+    background-color: var(--wall-color);
+
+
+  }
+
+  #stick-castle .door {
+    background-color: var(--door-color);
+    height: 160px;
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+  }
+
+  :root {
+    --stick-color: black;
+  }
+
+  
+  #stickman:hover {
+   cursor:wait;
+  
+  }
+  
+  #stickman .leg1 {
+    position: relative;
+    top: 380px;
+    left: 112px;
+    height: 20px;
+    width: 100px;
+    background: var(--stick-color);
+    transform: rotate(50deg);
+  }
+  #stickman .leg2 {
+    position: relative;
+    top: 360px;
+    left: 38px;
+    height: 20px;
+    width: 90px;
+    background: var(--stick-color);
+    transform: rotate(125deg);
+  }
+  #stickman .body {
+    position: relative;
+    top: -200px;
+    left: 50px;
+    height: 40px;
+    width: 140px;
+    background: var(--stick-color);
+    transform: rotate(90deg);
+  }
+  #stickman .arm1 {
+    position: relative;
+    top: 200px;
+    left: 130px;
+    height: 15px;
+    width: 100px;
+    background: var(--stick-color);
+    transform: rotate(50deg);
+    animation: wave2 1s alternate infinite ease-in-out;
+    transform-origin: 0%;
+  }
+  
+  @keyframes wave2 {
+    0% {
+      transform: rotate(-45deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+    #stickman .arm2 {
+    position: relative;
+    top: 213px;
+    left: 30px;
+    height: 15px;
+    width: 100px;
+    background: black;
+    transform: rotate(130deg);
+  }
+    #stickman .head {
+    background-color: black;
+    border-radius: 100px;
+    padding: 60px;
+    margin: 140px;
+    width: 5px;
+    position: relative;
+    top: -105px;
+    left: -82px;
+    }
+  
+  #stickman {
+    height: 300px;
+    width: 300px;
+    top: -90px;
+    margin-left: 30%;
+    position: relative;
+    transform-origin: 0% 0%;
+    animation: jump .7s ease-in infinite;
+    }
+  
+  @keyframes jump {
+    0% {transform: translate3d(0,0,0) scale3d(1,1,1);}
+    35%  {transform: translate3d(0,0,0) scale3d(1,1.1,1);}
+    100%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+    }
+
