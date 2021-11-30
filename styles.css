@@ -9,6 +9,8 @@
 
   ion-content {
     height: 100vh;
+    width: 100vh;
+    width: auto;
     display: flex;
     align-items: right;
     justify-content: center;
@@ -30,15 +32,28 @@
     display: block;
     padding-top: 5px;
     background: var(--sky-color);
-    margin-left: 50px;
-    margin-right: 5px;
+    position: relative;
   }
 
-  #stick-castle .roof {
+  #stick-castle .roof1 {
     height: 120px;
     width: 90px;
     background-color: var(--roof-color);
-    position: relative;
+    float: left;
+  }
+
+  #stick-castle .roof2 {
+    display: block;
+    height: 120px;
+    width: 90px;
+    background-color: var(--roof-color);
+  }
+
+  #stick-castle .roof3 {
+    height: 120px;
+    width: 90px;
+    background-color: var(--roof-color);
+    float: right;
   }
 
   #stick-castle .window {
