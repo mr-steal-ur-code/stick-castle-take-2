@@ -37,7 +37,7 @@
     width: 900px;
     display: block;
     padding-top: 5px;
-    background: var(--sky-color);
+    background: var(--ion-background-color);
     position: relative;
   }
 
@@ -74,8 +74,6 @@
   #stick-castle .wall {
     height: 160px;
     background-color: var(--wall-color);
-
-
   }
 
   #stick-castle .door {
@@ -169,7 +167,7 @@
     height: 300px;
     width: 300px;
     top: -90px;
-    margin-left: 30%;
+    margin-left: 10%;
     position: relative;
     transform-origin: 0% 0%;
     animation: jump .7s ease-in infinite;
