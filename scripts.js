@@ -1,9 +1,5 @@
-function sendMessage(message) {
-alert(message);
+let bobby = 'Like this, Bobby?';
+function greet() {
+    alert(" ummmmm " + bobby)
 }
-
-sendMessage("🖕");
-sendMessage("😘");
-sendMessage("🖕");
-
-
+greet();
