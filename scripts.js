@@ -1,5 +1,4 @@
-function greet() {
-let bobby = 'Like this, Bobby? Lemmy know man. I need to know. I can handle the truth! ';
-    alert(" ummmmm " + bobby)
+function killme() {
+    alert ("Like This? or is this too easy?");
 }
-greet();
+killme();
