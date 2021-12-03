@@ -1,4 +1,5 @@
-function killme() {
-    alert ("Like This? or is this too easy?");
-}
-killme();
+function greet() {
+    let bobby = ' I gotta git gud ';
+        alert(" ummmmm " + bobby)
+    }
+    greet();
