@@ -1,5 +1,13 @@
-function greet() {
-    let bobby = ' I gotta git gud ';
-        alert(" ummmmm " + bobby)
+function thing(one='dangit bobby') {
+    const cj = {
+        race: 'saiyan',
+        power: 'ki',
+
     }
-    greet();
+
+    alert( one + ' ' );
+  }
+  
+  thing();
+  thing(cj.race);
+  
